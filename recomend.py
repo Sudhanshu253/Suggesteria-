@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-anime = pd.read_csv("/Users/sudhanshusaroj/Data/Suggesteria/anime.csv")
+anime = pd.read_csv("anime.csv")
 
 # Fill missing values
 anime['genre'] = anime['genre'].fillna('')
