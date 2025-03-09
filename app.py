@@ -3,9 +3,9 @@ import pandas as pd
 import pickle
 
 # Load data and models
-anime = pd.read_csv("/Users/sudhanshusaroj/Data/Suggesteria/anime.csv")
-vectorizer = pickle.load(open("/Users/sudhanshusaroj/flask/vectorizer.pkl", "rb"))
-anime_similarity = pickle.load(open("/Users/sudhanshusaroj/flask/anime_similarity.pkl", "rb"))
+anime = pd.read_csv("anime.csv")
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+anime_similarity = pickle.load(open("anime_similarity.pkl", "rb"))
 
 # Streamlit UI
 st.title("Anime Recommendation System")
