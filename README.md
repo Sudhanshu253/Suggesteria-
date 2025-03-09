@@ -1,2 +1,2 @@
-# Suggeteria-
+# Suggesteria-
 Anime recommendation model
